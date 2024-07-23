@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['HoaiLinh', 'SonTung', 'TuyenVuong']
+
+roboflow:
+  workspace: facedetection-km2zl
+  project: face-recognition-b2fby
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/facedetection-km2zl/face-recognition-b2fby/dataset/1
